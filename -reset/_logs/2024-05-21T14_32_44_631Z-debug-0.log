@@ -1,0 +1,18 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\PMLS\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.0
+2 info using node@v21.4.0
+3 silly config load:file:C:\Users\PMLS\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\Basam\Practice\New\EMERGIFY\.npmrc
+5 silly config load:file:C:\Users\PMLS\.npmrc
+6 silly config load:file:C:\Users\PMLS\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm exec react-native run-android
+8 verbose argv "exec" "--" "react-native" "run-android"
+9 verbose logfile logs-max:10 dir:D:\Basam\Practice\New\EMERGIFY\-reset\_logs\2024-05-21T14_32_44_631Z-
+10 verbose logfile D:\Basam\Practice\New\EMERGIFY\-reset\_logs\2024-05-21T14_32_44_631Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd D:\Basam\Practice\New\EMERGIFY
+13 verbose os Windows_NT 10.0.22631
+14 verbose node v21.4.0
+15 verbose npm  v10.8.0
+16 verbose exit 0
+17 info ok

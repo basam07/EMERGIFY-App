@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "60423776821",
+    "firebase_url": "https://emergify-services-default-rtdb.firebaseio.com",
+    "project_id": "emergify-services",
+    "storage_bucket": "emergify-services.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60423776821:android:5073e370a76c3048bcdf7c",
+        "android_client_info": {
+          "package_name": "com.emergify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzzIPmi1DnoYR2TdcaZQOtEmtKMl2nbqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
