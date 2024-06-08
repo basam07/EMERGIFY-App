@@ -6,7 +6,7 @@
  */
 
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
@@ -40,10 +40,11 @@ import AmbulanceDetails from './Ambulance/Details';
 const Stack = createNativeStackNavigator();
 
 const App = () => {
+
   return (
     <NavigationContainer>
-      {/* <Stack.Navigator initialRouteName="Home"> */}
-      <Stack.Navigator initialRouteName="PublicMain">
+      <Stack.Navigator initialRouteName="Home"> 
+      {/* <Stack.Navigator initialRouteName="PublicMain"> */}
 
         {/* home page */}
         <Stack.Screen name="Home" component={HomePage}/>
