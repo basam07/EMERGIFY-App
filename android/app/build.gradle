@@ -135,9 +135,9 @@ dependencies {
 
 
     //google map dependencies
-     implementation(project(':react-native-onesignal')){
-      exclude group: 'com.google.android.gms'
-  }
+//      implementation(project(':react-native-onesignal')){
+//       exclude group: 'com.google.android.gms'
+//   }
 
   implementation(project(':react-native-maps')){
       exclude group: 'com.google.android.gms'
