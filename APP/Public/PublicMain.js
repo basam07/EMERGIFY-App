@@ -103,7 +103,8 @@ const PMain = ({navigation}) => {
 
         const userId = auth().currentUser.uid;
         await firestore().collection('policerequests').doc(userId).update({
-          currentLocation: {latitude, longitude},
+          longitude: longitude,
+          latitude: latitude,
         });
 
         navigation.navigate('camera');
@@ -120,8 +121,11 @@ const PMain = ({navigation}) => {
     try {
       const {latitude, longitude} = currentLocation;
       const userId = auth().currentUser.uid;
+      const latitudeNo = Number(latitude);
+      const longitudeNo = Number(longitude);
       await firestore().collection('policerequests').doc(userId).update({
-        currentLocation: {latitude, longitude},
+        longitude: longitudeNo,
+        latitude: latitudeNo,
       });
       console.log('Data updated successfully');
     } catch (error) {
