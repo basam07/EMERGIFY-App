@@ -185,7 +185,6 @@ const PublicLoginForm = ({navigation}) => {
             style={styles.input}
             placeholder="Phone No"
             keyboardType="numeric"
-            autoCapitalize="none"
             value={phoneNo}
             onChangeText={text => setPhone(text)}></TextInput>
           {phoneError ? (
