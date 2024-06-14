@@ -105,8 +105,7 @@ const PoliceDetails = ({route, navigation}) => {
                   }}
                   showsUserLocation
                   showsTraffic
-                  showsScale
-                  ></MapView>
+                  showsScale></MapView>
               </View>
             </View>
           ) : (
@@ -173,7 +172,7 @@ const styles = StyleSheet.create({
   containerMap: {
     // ...StyleSheet.absoluteFillObject,
     height: 600,
-    width: "100vh",
+    width: '100vh',
     justifyContent: 'flex-end',
     alignItems: 'center',
     borderRadius: 10,
@@ -181,7 +180,7 @@ const styles = StyleSheet.create({
   map: {
     // ...StyleSheet.absoluteFillObject,
     height: 600,
-    width: "100%",
+    width: '100%',
   },
 });
 
